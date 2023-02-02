@@ -6,7 +6,7 @@
   RootsToWings
 </h1>
 
-<div align="center">
+<div >
    <strong>RootsToWings</strong> -Mental health Analyzer<br>
   CoC Inheritance 2022 || Boomers <br> <br>
   
