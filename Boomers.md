@@ -46,11 +46,8 @@ Introducing our AI-powered chatbot feature, designed to provide support and guid
 ## 🔗Links
 
 - [GitHub Repository](https://github.com/pranavshuklaa/Team-Boomers)
-- [Demo Video]()
-- [Drive Link to Screenshots of your project]()
-- [Hosted Website Link]()
-- [App APK Link]()
-- [Hosted Backend Link]()
+- [Demo Video](https://drive.google.com/drive/folders/1ngSWTi8ctpVRpi1C3ifmPAcbvQ6CGXuO?usp=sharing)
+- [Drive Link to Screenshots of your project](https://drive.google.com/drive/folders/1ngSWTi8ctpVRpi1C3ifmPAcbvQ6CGXuO?usp=sharing)
 
 Add any more links/resources you used for your project
 
@@ -66,25 +63,28 @@ Add any more links/resources you used for your project
 - Flask
 - Python
 
-#### Database
+Database
 - MySQL
 
-#### Machine Learning
+Machine Learning
 - Numpy
 - Pandas
 - Scikit
 - Tensorflow
 
+
+#### Frontend Team:
+- Gauravi, Ardra & Samarth
+
+#### Backend Team:
+- Pranav
+
 ## 📈Progress
 
-
+- [x] Login/Signup
 - [x] Questionnaire 
 - [x] Chatbot
-
-List down all the partially implemented features in your project
-
-- [ ] Solution Interface( We are creating specific solutions for each level of illness.)
-- [ ] React pages( Front-end has some issue in linking all files)
+- [x] Solution Interface
 
 ## 🔮Future Scope
 
@@ -92,10 +92,21 @@ List down all the future plans for the project here
 
 - Advance version of chatbot that acts a therapist or helps psychologists to analyze mental health problems.
 - Moodboard
+- Journal
 
 ## 💸Applications
 
->How can your project do its part in solving a real-life problem? What are its possible applications? Can it be monetized? Describe here.
+>Our project addresses a critical issue of limited access to mental health resources, particularly for those in low and middle-income communities in India. Our platform aims to provide a safe and supportive space for individuals to take control of their mental well-being and improve their mental state. Our key features of the mental health questionnaire and AI-powered chatbot provide users with tailored solutions specific to their mental health needs and support through a conversational interface.
+This project has several possible real-life applications, including:
+1.Breaking the stigma surrounding mental health: By offering a supportive and non-judgmental platform for mental health support, we aim to normalize the conversation around mental health and encourage individuals to take control of their mental well-being.
+2.Providing support for mental health: Our platform provides a wide range of resources and support for mental health, from questionnaires to conversational support from the AI-powered chatbot.
+3.Reducing the burden on medical professionals: The shortage of medical professionals available to address mental health concerns can be alleviated with the use of our chatbot, which can provide support for basic mental health needs and direct severe cases to licensed doctors.
+
+In terms of monetization, there are several potential revenue streams, including:
+1.Advertising: Our platform could generate revenue through targeted advertising to mental health service providers or pharmaceutical companies.
+2.Premium subscriptions: Users could access additional resources and support through premium subscriptions, providing additional revenue for the platform.
+
+Overall, our project has the potential to make a significant impact in the lives of those struggling with mental health, while also providing a valuable service with monetization potential.
 
 ## 🛠Project Setup
 
@@ -116,12 +127,6 @@ Clone the repository
 https://github.com/pranavshuklaa/Team-Boomers.git
 
 ```
-To start the frontend user interface
-```
-cd client
-npm install
-npm start
-```
 To start the backend server
 ```
 python app.py
@@ -139,8 +144,4 @@ Add names of your mentors with their emails and links to their GitHub accounts
 
 - **Arnav Zutshi**  - (https://github.com/AsRaNi1)
 - **Ankit Sharma**  - (https://github.com/AnkittSharmaa)
-
-## Screenshots
-
-
 
