@@ -96,7 +96,7 @@ List down all the future plans for the project here
 
 ## 💸Applications
 
->Our project addresses a critical issue of limited access to mental health resources, particularly for those in low and middle-income communities in India. Our platform aims to provide a safe and supportive space for individuals to take control of their mental well-being and improve their mental state. Our key features of the mental health questionnaire and AI-powered chatbot provide users with tailored solutions specific to their mental health needs and support through a conversational interface.
+Our project addresses a critical issue of limited access to mental health resources, particularly for those in low and middle-income communities in India. Our platform aims to provide a safe and supportive space for individuals to take control of their mental well-being and improve their mental state. Our key features of the mental health questionnaire and AI-powered chatbot provide users with tailored solutions specific to their mental health needs and support through a conversational interface.
 This project has several possible real-life applications, including:
 1.Breaking the stigma surrounding mental health: By offering a supportive and non-judgmental platform for mental health support, we aim to normalize the conversation around mental health and encourage individuals to take control of their mental well-being.
 2.Providing support for mental health: Our platform provides a wide range of resources and support for mental health, from questionnaires to conversational support from the AI-powered chatbot.
