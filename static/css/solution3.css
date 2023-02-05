@@ -1,0 +1,54 @@
+body{
+    margin:0;
+    padding:0%;
+    justify-content: center;
+    align-items: center;
+}
+
+.solution_page{
+    /* background-image: url("./../extra/dep_sol.jpg"); */
+    background-repeat: no-repeat;
+    margin:0px;
+    overflow: hidden;
+}
+
+.solution_box{
+    display: inline-block;
+    padding: 6rem;
+    border-radius: 3rem;
+    margin: 10rem;
+    background-color: #87CEEB;
+    height: fit-content;
+    box-shadow: 0.7rem 1rem 1rem -0.7rem rgb(0, 0, 0);
+}
+
+.solution_box h1 {
+    position: relative;
+    margin: 20px;
+    padding: 0;
+    font-size: 48px;
+    z-index: 2;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.solution_box li {
+    font-size: 20px;
+}
+
+.solution_box p {
+
+    position: relative;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    z-index: 2;
+    align-items: center;
+    justify-content: center;
+}
+
+.solution_box a{
+    text-decoration-line: none;
+    color: rgb(91, 29, 153);
+}

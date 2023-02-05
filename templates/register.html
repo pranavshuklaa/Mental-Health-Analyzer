@@ -1,0 +1,210 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<!-- <!DOCTYPE html> -->
+<!--ADAPTED FROM TEMPLATE at https://getbootstrap.com/docs/4.0/components/card/-->
+<!-- 
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+    <title>Register</title>
+    <link rel="shortcut icon" href="{{ url_for('static', filename = 'images/favicon.ico') }}">
+
+    <link href="{{url_for('static',filename='vendor/bootstrap/css/bootstrap.min.css')}}" rel="stylesheet">
+    <link href="{{url_for('static',filename='vendor/fontawesome-free/css/all.min.css')}}" rel="stylesheet" type="text/css">
+    <link href="{{url_for('static',filename='css/sb-admin.css')}}" rel="stylesheet">
+
+  </head>
+
+  <body class="bg-dark">
+
+    <div class="container">
+      <div class="card card-register mx-auto mt-5">
+        <div class="card-header">Register an Account</div>
+        <div class="card-body">
+
+          {% include 'includes/_messages.html' %}
+          {% from "includes/_formhelpers.html" import render_field %}
+          <form method="POST" action="">
+            <div class="form-group">
+              <div class="form-row">
+                <div class="col-md-6">
+                  <div class="form-label-group">
+                    <input type="text" id="inputUsername" name="name" class="form-control" placeholder="Full Name" required="required" autofocus="autofocus" value={{request.form.name}}>
+                    <label for="fullName"></label>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-label-group">
+                    <input type="text" id="inputUsername" name="username" class="form-control" placeholder="Username" required="required" autofocus="autofocus" value={{request.form.username}}>
+                    <label for="inputUsername"></label>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="form-label-group">
+                <input type="text" id="inputEmail" name="email" class="form-control" placeholder="Email" required="required" autofocus="autofocus" value={{request.form.email}}>
+                <label for="inputEmail"></label>
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="form-row">
+                <div class="col-md-6">
+                  <div class="form-label-group">
+                    <input type="password" id="inputPassword" name="password" class="form-control" placeholder="Password" required="required" autofocus="autofocus" value={{request.form.password}}>
+                    <label for="inputPassword"></label>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-label-group">
+                    <input type="password" id="confirmPassword" name="confirm" class="form-control" placeholder="Confirm Password" required="required" autofocus="autofocus" value={{request.form.confirm}}>
+                    <label for="confirmPassword"></label>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button type="submit" class="btn btn-primary btn-block">Register</button>
+          </form>
+
+
+
+          <div class="text-center">
+            <a class="d-block small mt-3" href="login">Already have an account? Login now.</a>
+            <a class="d-block small mt-3" href="/">Home Page</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <script src="{{url_for('static',filename='vendor/jquery/jquery.min.js')}}"></script>
+    <script src="{{url_for('static',filename='vendor/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
+    <script src="{{url_for('static',filename='vendor/jquery-easing/jquery.easing.min.js')}}"></script>
+
+  </body>
+
+</html> -->
+<!DOCTYPE html>
+<!--ADAPTED FROM TEMPLATE at https://getbootstrap.com/docs/4.0/components/card/-->
+
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+    <title>Register</title>
+    <link rel="shortcut icon" href="{{ url_for('static', filename = 'images/favicon.ico') }}">
+
+    <link href="{{url_for('static',filename='vendor/bootstrap/css/bootstrap.min.css')}}" rel="stylesheet">
+    <link href="{{url_for('static',filename='vendor/fontawesome-free/css/all.min.css')}}" rel="stylesheet" type="text/css">
+    <link href="{{url_for('static',filename='css/sb-admin.css')}}" rel="stylesheet">
+
+  </head>
+
+  <body class="bg-dark" style="background-image: url(./../static/extra/reg_bg.jpg);">
+    <!-- <img src="./../static/extra/logo.png" 
+  style="display: block;
+        width: 15rem;
+        height: 15rem;
+        padding: 0;"/> -->
+
+    <div class="container" style="margin-top: 5rem;">
+
+      <div class="card card-register mx-auto mt-5"  style="width:35rem; 
+                                                            height: 32rem; 
+                                                            border-radius: 1.5rem; 
+                                                            margin-bottom: 5rem;
+                                                            box-shadow: 0.7rem 1rem 1rem -0.7rem rgb(0, 0, 0);
+                                                            background-color: #86b6c62c;">
+
+        <div class="card-header" style="background-color: #3a728e; 
+                                        color: white; 
+                                        font-size: large;
+                                        border-radius: 1.5rem 1.5rem 0 0;">Register an Account</div>
+
+        <div class="card-body">
+
+          <!-- this was  -->
+          {% include 'includes/_messages.html' %}
+          {% from "includes/_formhelpers.html" import render_field %}
+          <!-- commented out -->
+
+          <form method="POST" action="">
+            <div class="form-group">
+              <div class="form-row">
+                <div class="col-md-6">
+                  <div class="form-label-group" style="margin-top: 0.5rem;">
+                    <input style="height: 3rem;"  type="text" id="inputUsername" name="name" class="form-control" placeholder="Full Name" required="required" autofocus="autofocus" value={{request.form.name}}>
+                    <label for="fullName"></label>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-label-group" style="margin-top: 0.5rem;">
+                    <input style="height: 3rem;"  type="text" id="inputUsername" name="username" class="form-control" placeholder="Username" required="required" autofocus="autofocus" value={{request.form.username}}>
+                    <label for="inputUsername"></label>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="form-label-group" style="margin-top: 0.5rem;">
+                <input  style="height: 3rem;" type="text" id="inputEmail" name="email" class="form-control" placeholder="Email" required="required" autofocus="autofocus" value={{request.form.email}}>
+                <label for="inputEmail"></label>
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="form-row">
+                <div class="col-md-6">
+                  <div class="form-label-group" style="margin-top: 0.5rem;">
+                    <input style="height: 3rem;"  type="password" id="inputPassword" name="password" class="form-control" placeholder="Password" required="required" autofocus="autofocus" value={{request.form.password}}>
+                    <label for="inputPassword"></label>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-label-group" style="margin-top: 0.5rem;">
+                    <input  style="height: 3rem;" type="password" id="confirmPassword" name="confirm" class="form-control" placeholder="Confirm Password" required="required" autofocus="autofocus" value={{request.form.confirm}}>
+                    <label for="confirmPassword"></label>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button type="submit" class="btn btn-primary btn-block"  style="margin-left: 0rem; 
+                                                                            box-shadow: 0rem 0.7rem 1rem -0.7rem rgb(0, 0, 0);
+                                                                            background-color: #1f5372;
+                                                                            margin-top: 1rem;">Register</button>
+          </form>
+
+
+
+          <div class="text-center">
+            <a class="d-block small mt-3" href="/login" style="text-decoration: none;">Already have an account? Login now.</a>
+            <a class="d-block small mt-3" href="/" style="text-decoration: none;">Home Page</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <script src="{{url_for('static',filename='vendor/jquery/jquery.min.js')}}"></script>
+    <script src="{{url_for('static',filename='vendor/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
+    <script src="{{url_for('static',filename='vendor/jquery-easing/jquery.easing.min.js')}}"></script>
+
+  </body>
+
+</html>
+{% endblock%}

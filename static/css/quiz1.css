@@ -1,0 +1,326 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans:wght@300;400&display=swap');
+/* *{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Sofia Sans', sans-serif;
+    font-weight: 300;
+} */
+
+/* html{
+    font-size: 62.5%;
+
+} */
+/* #mainq{
+    font-size:2rem;
+    font-weight:450;
+}
+#greet{
+    background-color:rgb(231, 231, 142);
+    font-size:2rem;
+    font-weight:100;
+    text-shadow: 2px 1px black;
+}
+#note{
+    font-size:2rem;
+    font-weight:100;
+}
+.main-div{
+    width:100vw;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    background-color: rgb(149, 195, 231);
+}
+.inner-div{
+    width: 40vw;
+    background-color: #fff;
+    padding:3rem 8rem;
+    border-radius: 1rem;
+    box-shadow: 0 1rem 1rem -0.7rem rgba(0, 0, 0, 0.4);
+}
+
+.inner-div h2{
+    font-size:2.5rem;
+    font-weight:400;
+    margin:1rem 0 4rem 0;
+}
+
+.inner-div li{
+    font-size:2rem;
+    margin-top:1.5rem;
+    list-style:none
+}
+
+input{
+    cursor: pointer;
+    color:lightblue;
+}
+#next, .btn{
+    padding: 1rem 2rem;
+    outline:none;
+    font-size:2rem;
+    font-size:400;
+    display: block;
+    margin:auto;
+    border: none;
+    text-transform: uppercase;
+    color:#fff;
+    background-color: #238af0;
+    margin-top:30px;
+
+} */
+
+/* #next:hover{
+    background-color: #3015f6;
+} */
+/* #solutions{
+    padding: 1rem 2rem;
+        outline:none;
+        font-size:2rem;
+        font-size:400;
+        display: block;
+        margin:auto;
+        border: none;
+        text-transform: uppercase;
+        color:#fff;
+        background-color: #238af0;
+        margin-top:30px;
+    }
+
+#submit, .btn{
+    padding: 1rem 2rem;
+    outline:none;
+    font-size:2rem;
+    font-size:400;
+    display: block;
+    margin:auto;
+    border: none;
+    text-transform: uppercase;
+    color:#fff;
+    background-color: #46e741;
+    margin-top:30px;
+
+}
+
+#showScore{
+    background-color: #dfe6e9;
+    margin-top: 1.5rem;
+    padding:1rem 1rem;
+    box-shadow: 0 1rem 1rem -0.7rem rgba(0, 0, 0, 0.4);
+
+}
+
+#showScore h3{
+    font-size: 2rem;
+    text-align: center;
+}
+
+#showProblem{
+    background-color: #dfe6e9;
+    margin-top: 2rem;
+    padding:2rem 2rem;
+    box-shadow: 0 1rem 1rem -0.7rem rgba(0, 0, 0, 0.4);
+
+}
+
+#showProblem h4{
+    font-size: 2rem;
+    text-align: center;
+}
+
+
+#showScore .btn{
+    margin-top: 2rem;
+    background-color: #55efc4;
+    color:#056abc
+
+}
+
+#showScore .btn:hover{
+    margin-top: 2rem;
+    background-color: #32ac89;
+    color: #fff;
+    
+}
+
+.scoreArea{
+    display:none;
+}
+.problemArea{
+    display: none;
+}
+.mainqArea{
+    display: flex;
+} */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans:wght@300;400&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Sofia Sans', sans-serif;
+    font-weight: 300;
+}
+
+html{
+    font-size: 62.5%;
+
+}
+#mainq{
+    font-size:2rem;
+    font-weight:450;
+}
+#greet{
+    background-color:rgb(231, 231, 142);
+    font-size:2rem;
+    font-weight:100;
+    text-shadow: 2px 1px black;
+}
+#note{
+    font-size:2rem;
+    font-weight:100;
+}
+.main-div{
+    width:100vw;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    /* background-color: rgb(149, 195, 231); */
+    background-image: url(./../extra/dep_quiz_bg.jpg);
+}
+
+.inner-div{
+    width: 40vw;
+    background-color: #5c93aac0;
+    padding:3rem 8rem;
+    border-radius: 1rem;
+    box-shadow: 0rem 1.5rem 1.5rem -0.7rem rgb(0, 0, 0);
+}
+
+.inner-div h2{
+    font-size:2.5rem;
+    font-weight:400;
+    margin:1rem 0 2rem 0;
+}
+
+.inner-div li{
+    font-size:2rem;
+    margin-top:1.5rem;
+    list-style:none;
+}
+
+input{
+    cursor: pointer;
+    color:lightblue;
+}
+#next, .btn{
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    outline:none;
+    font-size:2rem;
+    font-size:400;
+    display: block;
+    margin:auto;
+    border: none;
+    text-transform: uppercase;
+    color:#fff;
+    background-color: #0c3756;
+    margin-top:30px;
+    box-shadow: 0.7rem 1rem 1rem -0.7rem rgb(0, 0, 0);
+
+}
+#next, .btn:hover{
+    /* color:black; */
+    cursor: pointer;
+}
+
+/* #next:hover{
+    background-color: #3015f6;
+} */
+#solutions{
+    padding: 1rem 2rem;
+        outline:none;
+        font-size:2rem;
+        font-size:400;
+        display: block;
+        margin:auto;
+        border: none;
+        text-transform: uppercase;
+        color:#fff;
+        background-color: #238af0;
+        margin-top:30px;
+    }
+
+#submit, .btn{
+    padding: 1rem 2rem;
+    outline:none;
+    border-radius: 1rem;
+    font-size:2rem;
+    font-size:400;
+    display: block;
+    margin:auto;
+    border: none;
+    text-transform: uppercase;
+    color:#fff;
+    background-color: #0c3756;
+    margin-top:30px;
+    box-shadow: 0.7rem 1rem 1rem -0.7rem rgb(0, 0, 0);
+
+}
+#submit, .btn:hover{
+    /* color:black; */
+    cursor: pointer;
+}
+
+#showScore{
+    background-color: #dfe6e9;
+    margin-top: 1.5rem;
+    padding:1rem 1rem;
+    box-shadow: 0 1rem 1rem -0.7rem rgba(0, 0, 0, 0.4);
+
+}
+
+#showScore h3{
+    font-size: 2rem;
+    text-align: center;
+}
+
+#showProblem{
+    background-color: #dfe6e9;
+    margin-top: 2rem;
+    padding:2rem 2rem;
+    box-shadow: 0 1rem 1rem -0.7rem rgba(0, 0, 0, 0.4);
+
+}
+
+#showProblem h4{
+    font-size: 2rem;
+    text-align: center;
+}
+
+
+#showScore .btn{
+    margin-top: 2rem;
+    background-color: #55efc4;
+    color:#056abc
+
+}
+
+#showScore .btn:hover{
+    margin-top: 2rem;
+    background-color: #32ac89;
+    color: #fff;
+    
+}
+
+.scoreArea{
+    display:none;
+}
+.problemArea{
+    display: none;
+}
+.mainqArea{
+    display: flex;
+}

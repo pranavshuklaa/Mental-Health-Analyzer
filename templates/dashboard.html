@@ -1,0 +1,5 @@
+{% extends 'base.html' %}
+{% block content %}
+<h1>welcome, {{ session.get('name') }}</h1>
+<button><a href="/logout"> logout</a></button>
+{% endblock %}

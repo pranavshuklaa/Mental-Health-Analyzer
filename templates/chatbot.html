@@ -1,0 +1,42 @@
+<!-- <html>
+  <head>
+    <title>Chatbot</title>
+  </head>
+  <body>
+    <form action="http://localhost:5000/chatbot" method="POST">
+      <label for="question">Enter your question:</label>
+      <input type="text" id="question" name="question">
+      <input type="submit" value="Predict">
+  </form>
+  {% if response %}
+      <p>Response: {{ response }}</p>
+  {% endif %}
+  
+  </body>
+</html> -->
+{% extends 'base.html'%}
+{%block content%}
+<html>
+  <head>
+    <title>Chatbot</title>
+    <link rel="stylesheet" type="text/css" href="../static/css/chatbot.css">
+  </head>
+  <body style="background-image: url(../static/extra/WhatsApp\ Image\ 2023-02-05\ at\ 3.21.21\ PM.jpeg);">
+    <h1 style="margin-left: 47% ; margin-top: 8%;">Chatbot</h1>
+    <div class="chat-container">
+      <div class="chat-box">
+        <h2></h2>
+        {% if response %}
+          <p>{{ response }}</p>
+        {% endif %}
+      </div>
+      <form action="http://localhost:5000/chatbot" method="POST">
+        <label for="question">Enter your question:</label>
+        <input type="text" id="question" name="question">
+        <input type="submit" value="Send">
+      </form>
+    </div>
+  </body>
+</html>
+{% endblock%}
+
