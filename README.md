@@ -111,11 +111,11 @@ Overall, our project has the potential to make a significant impact in the lives
 ## 🛠Project Setup
 
 Install the following libraries and environment:
-* [Python3](https://www.python.org/downloads/).
-* Some basic libraries and frameworks will come pre-installed but some more are required.
-* [Flask](https://flask.palletsprojects.com/en/2.0.x/):
-* [Requests](https://pypi.org/project/requests/):
-* [An SQL connection with Flask](https://flask-mysqldb.readthedocs.io/en/latest/): 
+* [Python3](https://www.python.org/downloads/)
+* Some basic libraries and frameworks will come pre-installed but some more are required
+* [Flask](https://flask.palletsprojects.com/en/2.0.x/)
+* [Requests](https://pypi.org/project/requests/)
+* [An SQL connection with Flask](https://flask-mysqldb.readthedocs.io/en/latest/)
 * wtforms: A python library used for getting inuput from a user in forms
 
 Install all these requirements:
