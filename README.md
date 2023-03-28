@@ -49,7 +49,6 @@ Introducing our AI-powered chatbot feature, designed to provide support and guid
 - [Demo Video](https://drive.google.com/drive/folders/1ngSWTi8ctpVRpi1C3ifmPAcbvQ6CGXuO?usp=sharing)
 - [Drive Link to Screenshots of your project](https://drive.google.com/drive/folders/1ngSWTi8ctpVRpi1C3ifmPAcbvQ6CGXuO?usp=sharing)
 
-Add any more links/resources you used for your project
 
 ## 🤖Tech-Stack
 
@@ -87,8 +86,6 @@ Machine Learning
 - [x] Solution Interface
 
 ## 🔮Future Scope
-
-List down all the future plans for the project here
 
 - Advance version of chatbot that acts a therapist or helps psychologists to analyze mental health problems.
 - Moodboard
